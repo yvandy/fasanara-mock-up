@@ -1,0 +1,10 @@
+.productCard {
+  border-radius: 20%;
+  width: 250px;
+  border-color: #d7d8d8;
+  margin: 0 25px 25px 25px;
+}
+
+.ptag {
+  margin: 0px;
+}

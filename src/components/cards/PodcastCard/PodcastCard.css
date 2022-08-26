@@ -1,0 +1,21 @@
+.ptag {
+  margin: 0px;
+}
+.PodcastCard {
+  width: 310px;
+  margin: 0 25px 25px 25px;
+}
+
+.cardImage {
+  width: 100%;
+}
+.descriptionSection {
+  background-color: black;
+  color: white;
+}
+.PodcastCard .ant-card-body {
+  padding: 0px;
+  background-color: black;
+  color: white;
+  margin: -1px -1px 0 -1px;
+}

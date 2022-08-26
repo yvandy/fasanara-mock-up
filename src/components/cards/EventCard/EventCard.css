@@ -1,0 +1,24 @@
+.eventCard {
+  width: 317px;
+  border-color: #d7d8d8;
+  margin: 0 25px 25px 25px;
+}
+
+.eventCard:hover {
+  background-image: url("https://static.wixstatic.com/media/834e5b_af9cd730ef774f289a696f037bc3d7f0~mv2.gif");
+}
+.eventCard :hover * {
+  color: #ffffff !important;
+}
+.header {
+  font-size: 18px;
+}
+
+.content {
+  font-size: 12px;
+  color: rgba(100, 102, 102);
+}
+.date {
+  font-size: 12px;
+  color: rgba(100, 102, 102);
+}
