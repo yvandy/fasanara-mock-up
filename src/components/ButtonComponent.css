@@ -11,22 +11,21 @@
         cursor: pointer;
 } */
 
-.button1{
-    width: 150px;
-    height: 40px;
-    text-align: center;
-    align-items: center;
-    font-weight: 300;
-    font-size: 20px;
-    padding-top: 5px;
-    margin-top: 20px;
-    background-color: black;
-    display: inline-block;  
-    
+.customButton {
+  min-width: 150px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 20px;
+  background-color: black;
+  display: inline-block;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    display: inline-block
+.customButton a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
 }

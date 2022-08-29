@@ -3,19 +3,19 @@ import { Card } from 'antd';
 import './InsightsCard.css';
 
 
-const InsightsCard = () => {
+const InsightsCard = (props) => {
 
     return (
         <div>
             <Card
                 className='InsightsCard'
-                style={{ width: "300px" }}
+                // style={{ width: "300px" }}
                 cover={
                     <a href='#' >
                         <img
                             className='cardImage'
                             alt="example"
-                            src="https://static.wixstatic.com/media/2bcfa3_836f5e935074421c98f2d1fb714dd08d~mv2.gif"
+                            src={props.source}
                         />
                     </a>
                 }
@@ -26,8 +26,8 @@ const InsightsCard = () => {
                     title="Card title"
                     description="This is the description"
                 /> */}
-                <p className='ptag' style={{ fontSize: "22px" }}>Scenarios | Jan 2021</p>
-                <p className='ptag' style={{ fontSize: "16px" }}>Digital Future. Use Of Digital Technology To Build Resilient Portfolios.</p>
+                <p className='ptag' style={{ fontSize: "22px" }}>{props.heading}</p>
+                <p className='ptag' style={{ fontSize: "16px" }}>{props.description}</p>
                 {/* <p className='ptag' style={{ fontSize: "16px" }}><span> Digital Lending </span></p> */}
 
             </Card>

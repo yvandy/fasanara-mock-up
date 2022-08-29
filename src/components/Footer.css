@@ -1,0 +1,33 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  /* height: 50vh; */
+  background-color: #1c1d25;
+  color: white;
+  padding: 30px;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.copyright_address_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name_email_subscribe_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nameFlex {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  height: 35px;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: underline;
+}

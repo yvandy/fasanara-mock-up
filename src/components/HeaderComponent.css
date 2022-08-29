@@ -1,52 +1,52 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 10%;
 }
 
 .menu {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
 }
 
 .dropdown {
-    padding: 1 em 0;
-    position: absolute;
-    display: none;
-    border-radius: 8px;
-    top: 35px;
+  padding: 1 em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 35px;
 }
 
-.dropdown li+li {
-    margin-top: 10px;
+.dropdown li + li {
+  margin-top: 10px;
 }
 
 .dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
 }
 
-
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-between;
-    /* font-size: 30px; */
+.dropdown ul {
+  display: flex;
+  list-style-type: none;
+  list-style: none;
+  width: 500px;
+  justify-content: space-between;
+  /* font-size: 30px; */
 }
 
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .logoImg {
-    height: 120px;
+  height: 120px;
 }

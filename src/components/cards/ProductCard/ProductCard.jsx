@@ -4,18 +4,18 @@ import logo from '../../../assets/logoFasanara.png'
 import './ProductCard.css'
 
 
-const ProductCard = () => {
+const ProductCard = (props) => {
 
     return (
         <>
             <Card
                 className="productCard"
-                hoverable                
+                hoverable
                 cover={<img alt="example" src={logo} />}
             >
-                <p className='ptag' style={{ fontSize: "22px" }}>Fasanara Fintech</p>
-                <p className='ptag' style={{ fontSize: "16px" }}><span> Alternative Credit</span></p>
-                <p className='ptag' style={{ fontSize: "16px" }}><span> Digital Lending </span></p>
+                <p style={{ fontSize: "22px", marginBottom: "10px" }}>{props.heading}</p>
+                <p style={{ fontSize: "16px" }}><span>{props.text1}</span></p>
+                <p style={{ fontSize: "16px" }}><span>{props.text2}</span></p>
             </Card>
         </>
     )

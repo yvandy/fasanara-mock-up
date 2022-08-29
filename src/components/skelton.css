@@ -1,0 +1,14 @@
+/* [class~="ant-col"] {
+  background: transparent;
+  border: 0;
+}
+[class~="ant-col"] > div {
+  min-height: 130px;
+  font-size: 14px;
+  background: #0092ff;
+  border-radius: 4px;
+  overflow: hidden;
+} */
+[class~="ant-row"] {
+  margin-bottom: 20px;
+}
