@@ -13,7 +13,7 @@ const EventCard = (props) => {
     return (
         <>
             <Card className='eventCard' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <a href='#' className='eventLink'>
+                <a className='eventLink' href={props.cardLink || "#"} target="_blank" rel="noreferrer">
                     <div className="eventImage" style={{ opacity: onHover ? 1 : 0 }} >
                         <img src={props.backgroundImage} alt="" />
                     </div>
