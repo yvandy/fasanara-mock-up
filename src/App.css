@@ -2,8 +2,6 @@
 
 .App {
   text-align: center;
-  margin: 10px;
-  min-width: 1000px;
   overflow-x: auto;
 }
 
@@ -44,4 +42,8 @@ ul {
   to {
     transform: rotate(360deg);
   }
+}
+
+[class~="ant-row"] {
+  margin-bottom: 20px;
 }

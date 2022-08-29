@@ -6,7 +6,6 @@ import Newsimage3 from '../../assets/Newsimage3.png'
 import ButtonComponent from '../ButtonComponent';
 
 const NewsCardContainer = () => {
-
     return (
         <>
             <Row gutter={[16, 16]} justify="center">
@@ -22,7 +21,7 @@ const NewsCardContainer = () => {
                 </Col>
             </Row>
             <Row>
-                <Col span={24}>
+                <Col span={24} style={{ marginBottom: "150px" }}>
                     <ButtonComponent value="MORE MEDIA" />
                 </Col>
             </Row>

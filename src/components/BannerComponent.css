@@ -1,18 +1,21 @@
-.container{
-    position: relative;
-    text-align: center;    
+.bannerContainer {
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-.centered{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.title{
-    font-size: 80px;
-    color: white;
+.bannerTitle {
+  font-size: 80px;
+  color: white;
 }
-.banner{
-    height: 250px;
+.banner {
+  height: 250px;
+  width: 100%;
 }

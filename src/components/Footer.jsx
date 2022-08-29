@@ -1,12 +1,11 @@
 import React from 'react';
 import "./Footer.css";
-import { Button, Input, Row, Col } from 'antd';
+import { Button, Input } from 'antd';
 import logoFasanara from '../assets/logoFasanara.png'
 
 const Footer = () => {
 
     return (
-
         <div className='mainDiv'>
 
             <div className='copyright_address_div'>
@@ -67,17 +66,12 @@ const Footer = () => {
 
                 </div>
                 <div>
-
                 </div>
                 <div>
                     <img src={logoFasanara} />
                 </div>
             </div>
-
-
         </div>
-
-
     )
 }
 

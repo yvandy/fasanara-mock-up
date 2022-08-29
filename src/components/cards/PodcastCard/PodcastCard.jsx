@@ -4,9 +4,7 @@ import './PodcastCard.css';
 
 
 const PodcastCard = (props) => {
-
     return (
-
         <Card
             className='PodcastCard'
             cover={
@@ -18,15 +16,12 @@ const PodcastCard = (props) => {
                     />
                 </a>
             }
-
         >
             <div className='cardDescription'>
-                <p className='ptag' style={{ fontSize: "16px" }}>{props.headerText}</p>
-                <p className='ptag' style={{ fontSize: "12px" }}>{props.descriptionText}</p>
+                <p style={{ fontSize: "16px" }}>{props.headerText}</p>
+                <p style={{ fontSize: "12px" }}>{props.descriptionText}</p>
             </div>
         </Card>
-
-
     )
 }
 

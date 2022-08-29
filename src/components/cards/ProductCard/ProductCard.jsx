@@ -3,9 +3,7 @@ import { Card } from 'antd';
 import logo from '../../../assets/logoFasanara.png'
 import './ProductCard.css'
 
-
 const ProductCard = (props) => {
-
     return (
         <>
             <Card

@@ -5,8 +5,8 @@
 }
 
 .slick-dots li.slick-active button {
-  width: 7px;
-  height: 7px;
+  width: 8px;
+  height: 8px;
   border-radius: 100%;
 }
 
@@ -25,7 +25,7 @@
   position: absolute;
   top: 15%;
   left: 15%;
-  color: white !important;
+  color: white;
   text-align: justify;
 }
 
@@ -33,6 +33,7 @@
   font-size: 40px;
   line-height: 1em;
   font-weight: bold;
+  color: white;
   letter-spacing: 0em;
 }
 .subtitle {

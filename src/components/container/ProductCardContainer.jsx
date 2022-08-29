@@ -3,7 +3,6 @@ import ProductCard from '../cards/ProductCard/ProductCard';
 import ButtonComponent from '../ButtonComponent';
 
 const ProductCardContainer = () => {
-
     return (
         <>
             <Row justify='center'>
@@ -25,7 +24,7 @@ const ProductCardContainer = () => {
                 </Col>
             </Row>
             <Row>
-                <Col span={24}>
+                <Col span={24} style={{ marginBottom: "80px" }}>
                     <ButtonComponent value="OUR FUNDS" />
                 </Col>
             </Row>

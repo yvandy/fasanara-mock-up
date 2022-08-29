@@ -4,12 +4,10 @@ import './InsightsCard.css';
 
 
 const InsightsCard = (props) => {
-
     return (
         <div>
             <Card
                 className='InsightsCard'
-                // style={{ width: "300px" }}
                 cover={
                     <a href='#' >
                         <img
@@ -19,19 +17,10 @@ const InsightsCard = (props) => {
                         />
                     </a>
                 }
-
             >
-                {/* <Meta
-
-                    title="Card title"
-                    description="This is the description"
-                /> */}
                 <p className='ptag' style={{ fontSize: "22px" }}>{props.heading}</p>
                 <p className='ptag' style={{ fontSize: "16px" }}>{props.description}</p>
-                {/* <p className='ptag' style={{ fontSize: "16px" }}><span> Digital Lending </span></p> */}
-
             </Card>
-
         </div>
     )
 }

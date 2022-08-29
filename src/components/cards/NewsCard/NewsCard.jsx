@@ -1,9 +1,8 @@
 import React from 'react';
 import './NewsCard.css';
+import { Col, Row } from 'antd';
 
 const NewsCard = (props) => {
-
-
 
     return (
         <div className='newsCardMainDiv'>
@@ -22,7 +21,11 @@ const NewsCard = (props) => {
                     {props.descriptionText}
                 </p>
                 <div className='logoDiv'>
-                    <img src={props.logo} alt="Logo" />
+                    <Row justify='center'>
+                        <Col span={24}>
+                            <img src={props.logo} alt="Logo" />
+                        </Col>
+                    </Row>
                 </div>
             </div>
         </div>

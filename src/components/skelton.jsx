@@ -10,10 +10,9 @@ import Slideshow from './CarouselComponent'
 import HeaderComponent from './HeaderComponent';
 
 const Skelton = (props) => {
-
     return (
         <>
-            <HeaderComponent/>
+            <HeaderComponent />
             {/* <Row>
                 <Col span={4} offset={4}> <div>LOGO</div></Col>
                 <Col span={8} offset={4}> <div>MENU</div></Col>
@@ -145,13 +144,7 @@ const Skelton = (props) => {
                     <NewsCard />
                 </Col>
             </Row>
-            
-                <Footer />
-            
-
-
-
-
+            <Footer />
         </>
     )
 }

@@ -3,8 +3,11 @@ import EventCard from '../cards/EventCard/EventCard';
 
 const EventCardContainer = () => {
     return (
-        <div>
-            <Row gutter={[15, 15]} justify="center">
+        <div style={{ marginBottom: "50px" }}>
+            <Row>
+                <Col span={24}> <div style={{ fontSize: "18px", lineHeight: "1.5em", marginTop: "60px" }}> RECENT & UPCOMING EVENTS</div></Col>
+            </Row>
+            <Row gutter={[15, 15]} justify="center" style={{ marginBottom: "15px" }}>
                 <Col xs={15} sm={15} md={5} lg={5} xl={5}>
                     <EventCard heading={"Private Credit EU Leadership Summit"} content={`We are pleased to be speaking on a panel dealing with “A world turned upside down: Adjusting to the consequences of covid, inflation, interest rates, supply chain issues and the conflict in Ukraine."`} date={"28 September 2022"} backgroundImage="https://static.wixstatic.com/media/834e5b_af9cd730ef774f289a696f037bc3d7f0~mv2.gif" />
                 </Col>

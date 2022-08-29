@@ -1,8 +1,7 @@
-import { Carousel } from 'antd';
+import { Carousel, Col, Row } from 'antd';
 import React from 'react';
 import ButtonComponent from './ButtonComponent';
 import './CarouselComponent.css';
-import { Col, Row } from 'antd';
 
 const Slideshow = () => (
     <Carousel autoplay={false} dots>

@@ -3,9 +3,9 @@ import './BannerComponent.css';
 
 const BannerComponent = (props) => {
     return (
-        <div className='container' >
+        <div className='bannerContainer' >
             <img className='banner' src={props.imageSource}  alt="banner" />
-            <div className='centered'> <h1 className='title'> {props.title} </h1> </div>
+            <div className='centered'> <h1 className='bannerTitle'> {props.title} </h1> </div>
         </div>
     )
 }
