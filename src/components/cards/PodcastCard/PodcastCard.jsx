@@ -8,7 +8,7 @@ const PodcastCard = (props) => {
         <Card
             className='PodcastCard'
             cover={
-                <a href='#'  >
+                <a href={props.podcastLink || "#"} target="_blank" rel="noreferrer">
                     <img
                         className='cardImage'
                         alt="example"

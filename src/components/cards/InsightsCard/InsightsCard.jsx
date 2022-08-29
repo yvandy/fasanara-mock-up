@@ -9,7 +9,7 @@ const InsightsCard = (props) => {
             <Card
                 className='InsightsCard'
                 cover={
-                    <a href='#' >
+                    <a href={props.cardLink || "#"} target="_blank" rel="noreferrer">
                         <img
                             className='cardImage'
                             alt="example"

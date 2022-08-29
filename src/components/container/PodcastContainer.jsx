@@ -6,7 +6,7 @@ const PodcastContainer = () => {
 
     return (
         <>
-            <Row gutter={[16, 16]} justify="center" style={{ margin: "50px 0" }} >
+            <Row gutter={[16, 16]} justify="center" >
                 <Col style={{ textAlign: "justify", marginBottom: "50px" }} span={15}><svg preserveAspectRatio="xMidYMid meet" data-bbox="40.8 40.8 118.4 118.4" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="40.8 40.8 118.4 118.4" data-type="color" role="presentation" aria-hidden="true" aria-labelledby="svgcid-8h8j4-998wln"><defs></defs><title id="svgcid-8h8j4-998wln"></title>
                     <g>
                         <path d="M159.2 100c0 32.695-26.505 59.2-59.2 59.2-32.695 0-59.2-26.505-59.2-59.2 0-32.695 26.505-59.2 59.2-59.2 32.695 0 59.2 26.505 59.2 59.2z" fill="black" clipRule="evenodd" fillRule="evenodd" ></path>
@@ -16,37 +16,34 @@ const PodcastContainer = () => {
                 </svg>
                     <div style={{ position: 'absolute', top: 0, left: 70, fontSize: "30px" }}>Podcasts </div>
                 </Col>
-                {/* <Col span={4}>Podcasts</Col> */}
             </Row>
             <Row gutter={[16, 16]} justify="center">
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_01694831d55f46d5925fb1948808fde4~mv2.gif" headerText="Scenarios | Jan 2021" descriptionText="Digital Future. Use Of Digital Technology To Build Resilient Portfolios." />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_01694831d55f46d5925fb1948808fde4~mv2.gif" headerText="Scenarios | Jan 2021" podcastLink="https://www.fasanara.com/resonance" descriptionText="Digital Future. Use Of Digital Technology To Build Resilient Portfolios." />
                 </Col>
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_81c8102f9c55446687a80df03caaeda6~mv2.gif" headerText="Feb22. The Curious Learners" descriptionText="Focus on investments in financial services across TradFi, DeFi and CeFi." />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_81c8102f9c55446687a80df03caaeda6~mv2.gif" headerText="Feb22. The Curious Learners" podcastLink="https://www.fasanara.com/the-curious-learners-tradfi-defi" descriptionText="Focus on investments in financial services across TradFi, DeFi and CeFi." />
                 </Col>
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_9923cf5b2c9a4ad6b47cc1cd514d32eb~mv2.gif" descriptionText="Plotting a Course for Digitization of Financial Markets." headerText="Dec21. MacroVoices" />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_9923cf5b2c9a4ad6b47cc1cd514d32eb~mv2.gif" descriptionText="Plotting a Course for Digitization of Financial Markets." podcastLink="https://www.fasanara.com/macrovoices-dec" headerText="Dec21. MacroVoices" />
                 </Col>
             </Row>
             <Row gutter={[16, 16]} justify="center">
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_1f02c2a97b35410aaf416fb715740303~mv2.gif" descriptionText="Podcast episode with Nikita Fadeev." headerText="Nov21. The Curious Learners." />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_1f02c2a97b35410aaf416fb715740303~mv2.gif" descriptionText="Podcast episode with Nikita Fadeev." podcastLink="https://www.fasanara.com/the-curious-learners" headerText="Nov21. The Curious Learners." />
                 </Col>
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
 
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_b7a96105ebf34b10b07ec3d59173cb02~mv2.gif" descriptionText="New Technologies Coming to the Rescue." headerText="Nov21. Resonance FM" />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_b7a96105ebf34b10b07ec3d59173cb02~mv2.gif" descriptionText="New Technologies Coming to the Rescue." podcastLink="https://www.fasanara.com/resonance-nov" headerText="Nov21. Resonance FM" />
                 </Col>
                 <Col xs={4} sm={4} md={5} lg={5} xl={5}>
 
-                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_b817383a356d4b50a79cc6f8dd6535be~mv2.gif" descriptionText="Alternative data in Digital Lending." headerText="Oct21. The Alternative Data Podcast" />
+                    <PodcastCard source="https://static.wixstatic.com/media/834e5b_b817383a356d4b50a79cc6f8dd6535be~mv2.gif" descriptionText="Alternative data in Digital Lending." podcastLink="https://www.fasanara.com/alt-data-podcast" headerText="Oct21. The Alternative Data Podcast" />
                 </Col>
             </Row>
-
-
             <Row>
                 <Col span={24} style={{ marginBottom: "80px" }}>
-                    <ButtonComponent value=" MORE PODCASTS" />
+                    <ButtonComponent value=" MORE PODCASTS" buttonLink="https://www.fasanara.com/podcasts" />
                 </Col>
             </Row>
         </>

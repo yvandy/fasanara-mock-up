@@ -5,7 +5,7 @@ const ButtonComponent = (props) => {
     return (
         <>
             <div className='customButton' style={{ border: props.borderColor ? `1px solid ${props.borderColor}` : null }}>
-                <a href="#">{props.value}</a>
+                <a href={props.buttonLink || "#"} target="_blank" rel="noreferrer">{props.value}</a>
             </div>
         </>
     )

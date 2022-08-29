@@ -3,6 +3,7 @@
 .App {
   text-align: center;
   overflow-x: auto;
+  min-width: 800px;
 }
 
 ul {

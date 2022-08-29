@@ -7,7 +7,6 @@ const Footer = () => {
 
     return (
         <div className='mainDiv'>
-
             <div className='copyright_address_div'>
                 <div>
                     All rights reserved ©<br />
@@ -20,32 +19,32 @@ const Footer = () => {
                     Email: investors@fasanara.com
                 </div>
                 <div className='footerLinks'>
-                    <a href="#">
+                    <a href="https://www.fasanara.com/disclaimer">
                         Disclaimer
                     </a><br />
-                    <a href="#">
+                    <a href="https://storage.googleapis.com/wzukusers/user-17563510/documents/5b07f6b4651b6kldBobF/Privacy%20Policy.pdf">
                         Privacy Policy
                     </a><br />
-                    <a href="#">
+                    <a href="https://storage.googleapis.com/wzukusers/user-17563510/documents/5b06b6f6630c6TiPobRZ/Internet%20Browsing%20and%20Cookies%20Policy.pdf">
                         Browsing and Cookies
                     </a><br />
-                    <a href="#">
+                    <a href="https://www.fasanara.com/esg">
                         ESG
                     </a><br />
-                    <a href="#">
+                    <a href="https://www.fasanara.com/_files/ugd/2bcfa3_079925e1d7da46ae9807d015fc86cf85.pdf">
                         Pillar 3 Disclosure
                     </a><br />
 
                 </div>
                 <div style={{ marginRight: "10px" }}>
-                    <a class="social" target="_blank" style={{ padding: "10px" }}>
+                    <a target="_blank" rel="noreferrer" style={{ padding: "10px" }} href="https://www.linkedin.com/company/fasanara-capital/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
                             fill="#ffffff">
                             <path
                                 d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
                         </svg>
                     </a>
-                    <a class="social" target="_blank">
+                    <a target="_blank" rel="noreferrer" href="https://twitter.com/FasanaraCapital">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
                             fill="#ffffff">
                             <path
@@ -63,12 +62,11 @@ const Footer = () => {
                         <Input type={"email"} placeholder="Email" />
                         <Button style={{ backgroundColor: "#1c1d25", color: "white" }}> Subscribe</Button>
                     </div>
-
                 </div>
                 <div>
                 </div>
                 <div>
-                    <img src={logoFasanara} />
+                    <img src={logoFasanara} alt="Fasanara" />
                 </div>
             </div>
         </div>

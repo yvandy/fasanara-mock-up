@@ -25,7 +25,7 @@ const ProductCardContainer = () => {
             </Row>
             <Row>
                 <Col span={24} style={{ marginBottom: "80px" }}>
-                    <ButtonComponent value="OUR FUNDS" />
+                    <ButtonComponent value="OUR FUNDS" buttonLink="https://www.fasanara.com/funds" />
                 </Col>
             </Row>
         </>

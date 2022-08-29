@@ -4,7 +4,7 @@ import ButtonComponent from './ButtonComponent';
 import './CarouselComponent.css';
 
 const Slideshow = () => (
-    <Carousel autoplay={false} dots>
+    <Carousel autoplay dots>
         <div className='slideContainer' >
             <div className='overlay' />
             <video className='videoCover' src="https://video.wixstatic.com/video/2bcfa3_4a5922b8683643729c692a3bac12dace/1080p/mp4/file.mp4" autoPlay loop muted>
@@ -18,7 +18,7 @@ const Slideshow = () => (
                         <span className='subtitle'>Digital Future</span>
                     </h2>
                     <div className='subscript'>Quant Fintech Investments</div>
-                    <ButtonComponent value="EXPLORE" borderColor="white"></ButtonComponent>
+                    <ButtonComponent buttonLink="#" value="EXPLORE" borderColor="white"></ButtonComponent>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ const Slideshow = () => (
                         </div>
 
                         <div className='subscript'>Emergence of New Capital Markets. To any market participant who has been more than 10 years in activity, financial markets are unrecognisable, lampooning the laws of physics...</div>
-                        <ButtonComponent value="READ" borderColor="white"></ButtonComponent>
+                        <ButtonComponent value="READ" borderColor="white" buttonLink="https://www.fasanara.com/22102019"></ButtonComponent>
 
                     </Col>
                 </Row>
@@ -57,7 +57,7 @@ const Slideshow = () => (
                         </div>
 
                         <div className='subscript'>Use Of Digital Technology To Build Resilient Portfolios. Going Beyond 60/40 Traditional Asset Allocation.</div>
-                        <ButtonComponent value="MORE" borderColor="white"></ButtonComponent>
+                        <ButtonComponent value="MORE" borderColor="white" buttonLink="https://www.fasanara.com/scenario04012021"></ButtonComponent>
 
                     </Col>
                 </Row>
@@ -75,7 +75,7 @@ const Slideshow = () => (
                         </div>
 
                         <div className='subscript'>At a time in which bonds are no longer bonds but rather tax bills, and equities are as expensive as washing machines going on auction at 50 thousand dollars, what role is left to play for us rationale investors?</div>
-                        <ButtonComponent value="READ" borderColor="white"></ButtonComponent>
+                        <ButtonComponent value="READ" borderColor="white" buttonLink="https://www.fasanara.com/scenario-22102019"></ButtonComponent>
 
                     </Col>
                 </Row>
@@ -93,8 +93,7 @@ const Slideshow = () => (
                         </div>
 
                         <div className='subscript'>Fasanara discusses the unreliability of asset prices. Tech stocks, market intervention. Incidental triggers for a big market correction. Non-linearity, Risk-Parity and fake markets.</div>
-                        <ButtonComponent value="WATCH" borderColor="white"></ButtonComponent>
-
+                        <ButtonComponent value="WATCH" borderColor="white" buttonLink="#"></ButtonComponent>
                     </Col>
                 </Row>
             </div>
